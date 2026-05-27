@@ -1,0 +1,26 @@
+/* src/app/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
+html, body, [data-testid="stAppViewContainer"] {
+    font-family: 'Outfit', sans-serif;
+    background-color: #F8FAFC;
+}
+
+.kpi-card {
+    background: white;
+    padding: 24px;
+    border-radius: 14px;
+    border: 1px solid #E2E8F0;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.01);
+}
+
+.alert-pill-box {
+    background-color: #FFF5F5;
+    border-left: 5px solid #EF4444;
+    padding: 14px;
+    color: #991B1B;
+    font-weight: 500;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
